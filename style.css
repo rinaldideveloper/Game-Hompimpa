@@ -1,3 +1,23 @@
 *{
-    background-color: #ae876b ;
+    background-color: #9C835F ;
+}
+h1{
+    text-align: center;
+}
+.row-1{
+    text-align: center;
+}
+.row-2{
+    text-align: right;
+}
+.row-3{
+    text-align: left;
+}
+.container-isi{
+    position: absolute;
+    margin-top: 200px;
+    text-align: center;
+}
+.row-1-2{
+    margin-top: 100px;
 }
