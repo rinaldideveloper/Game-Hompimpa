@@ -1,23 +1,69 @@
 *{
     background-color: #9C835F ;
 }
-h1{
-    text-align: center;
+.gameContent {
+	position: relative;
+	top: 100px;
+	text-align: center !important;
 }
-.row-1{
-    text-align: center;
+
+.gameContent .row div h3 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
 }
-.row-2{
-    text-align: right;
+
+.gameContent .row.contentImage .col-4{
+	height: 75px;
 }
-.row-3{
-    text-align: left;
+
+.gameContent .row.contentImage img {
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
 }
-.container-isi{
-    position: absolute;
-    margin-top: 200px;
-    text-align: center;
+
+.gameContent .row div.greyBox {
+	border-radius: 15%;
 }
-.row-1-2{
-    margin-top: 100px;
+
+.gameContent .refresh{
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.gameContent .row.contentImage .versus {
+	position: relative;
+	z-index: 1;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.gameContent .row.contentImage .versus h1 {
+	font-weight: bold;
+	font-size: 40px;
+	color: #bd302f;
+}
+
+.gameContent .row.contentImage .versus .result {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	transform: rotate(-30deg);
+	margin-left: -30px;
+}
+
+.gameContent .row.contentImage .versus .result h5{
+	display: table-cell;
+	vertical-align: middle;
+	background-color: #4C9654;
+	border-radius: 5%;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #ffffff;
+	height: 55px;
+	padding: 10px 40px;
 }
